@@ -1,0 +1,1710 @@
+local Ultron = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("Frame")
+local TitleLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Tabs = Instance.new("Frame")
+local HomePage = Instance.new("TextButton")
+local MainFeatures = Instance.new("TextButton")
+local Animations = Instance.new("TextButton")
+local Credits = Instance.new("TextButton")
+local Extra = Instance.new("TextButton")
+local AutoFarm = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local MainFeaturesFrame = Instance.new("ScrollingFrame")
+local Fly = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local GodMode = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Walkspeed = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local GodBullet = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local SuperTaserlock = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Unjail = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local ToolsWhileCuffed = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local ServerSwap = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local RemoveLeaderboard = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local AntiAfk = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local NoFog = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local ChatLogs = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local AntiPepperSpray = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local KnifeLockpick = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local MeleeReach = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local AntiStomp = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local HomeFrame = Instance.new("Frame")
+local Title_2 = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+local NoUP = Instance.new("TextLabel")
+local Updates = Instance.new("TextLabel")
+local Glow = Instance.new("ImageLabel")
+local AnimationsFrame = Instance.new("ScrollingFrame")
+local Ninja = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Toy = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Bubbly = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local OldSchool = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Zombie = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Stylish = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Cartoony = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Robot = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Astronaut = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Mage = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Robot_2 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Knight = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local SuperHero = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local Werewolf = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local Elder = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local Vampire = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Levitation = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local CreditsFrame = Instance.new("Frame")
+local UICorner_37 = Instance.new("UICorner")
+local ScriptsMadeBydabsTruePro = Instance.new("TextLabel")
+local Updates_2 = Instance.new("TextLabel")
+local AutoFarmFrame = Instance.new("Frame")
+local UICorner_38 = Instance.new("UICorner")
+local HospitalAutoFarm = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local P90Autofarm = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local ShotgunAutofarm = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local Fistautofarm = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local ExtraFrame = Instance.new("ScrollingFrame")
+local Antiban = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local nilfeaturs = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local nilfeaturs_2 = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local nilfeaturs_3 = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local nilfeaturs_4 = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local nilfeaturs_5 = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+local nilfeaturs_6 = Instance.new("TextButton")
+local UICorner_49 = Instance.new("UICorner")
+local nilfeaturs_7 = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
+local nilfeaturs_8 = Instance.new("TextButton")
+local UICorner_51 = Instance.new("UICorner")
+local nilfeaturs_9 = Instance.new("TextButton")
+local UICorner_52 = Instance.new("UICorner")
+local nilfeaturs_10 = Instance.new("TextButton")
+local UICorner_53 = Instance.new("UICorner")
+local nilfeaturs_11 = Instance.new("TextButton")
+local UICorner_54 = Instance.new("UICorner")
+local nilfeaturs_12 = Instance.new("TextButton")
+local UICorner_55 = Instance.new("UICorner")
+local nilfeaturs_13 = Instance.new("TextButton")
+local UICorner_56 = Instance.new("UICorner")
+local nilfeaturs_14 = Instance.new("TextButton")
+local UICorner_57 = Instance.new("UICorner")
+local nilfeaturs_15 = Instance.new("TextButton")
+local UICorner_58 = Instance.new("UICorner")
+local KeySystem = Instance.new("Frame")
+local TitleKey = Instance.new("Frame")
+local TitleKeyButer = Instance.new("Frame")
+local UICorner_59 = Instance.new("UICorner")
+local KeyLSDGF = Instance.new("TextLabel")
+local UICorner_60 = Instance.new("UICorner")
+local Sumbit = Instance.new("TextButton")
+local UICorner_61 = Instance.new("UICorner")
+local KeyFrame = Instance.new("TextBox")
+local KeyLSDGF_2 = Instance.new("TextLabel")
+local Close_2 = Instance.new("TextButton")
+local Glow_2 = Instance.new("ImageLabel")
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Ultron.Name = "Ultron"
+Ultron.Parent = game.CoreGui
+Ultron.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = Ultron
+Main.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.151385933, 0, 0.266584754, 0)
+Main.Size = UDim2.new(0, 576, 0, 379)
+Main.Visible = false
+Main.Active = true
+Main.Draggable = true
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = Main
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
+Title.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(0, 576, 0, 59)
+
+TitleLabel.Name = "TitleLabel"
+TitleLabel.Parent = Title
+TitleLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TitleLabel.BackgroundTransparency = 1.000
+TitleLabel.BorderSizePixel = 0
+TitleLabel.Position = UDim2.new(-0.00173611112, 0, 0.203389823, 0)
+TitleLabel.Size = UDim2.new(0, 122, 0, 34)
+TitleLabel.ZIndex = 5
+TitleLabel.Font = Enum.Font.Highway
+TitleLabel.Text = "Ultron"
+TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TitleLabel.TextSize = 25.000
+TitleLabel.TextStrokeTransparency = 0.000
+TitleLabel.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = Title
+
+Tabs.Name = "Tabs"
+Tabs.Parent = Main
+Tabs.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Tabs.BorderSizePixel = 0
+Tabs.Position = UDim2.new(-2.59081517e-05, 0, 0.155672818, 0)
+Tabs.Size = UDim2.new(0, 155, 0, 319)
+
+HomePage.Name = "HomePage"
+HomePage.Parent = Tabs
+HomePage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomePage.BackgroundTransparency = 1.000
+HomePage.Position = UDim2.new(0.0595878363, 0, 0.0219435729, 0)
+HomePage.Size = UDim2.new(0, 136, 0, 40)
+HomePage.Font = Enum.Font.SourceSansSemibold
+HomePage.Text = "Home"
+HomePage.TextColor3 = Color3.fromRGB(255, 255, 255)
+HomePage.TextSize = 25.000
+HomePage.MouseButton1Down:connect(function()
+	MainFeaturesFrame.Visible = false
+	AnimationsFrame.Visible = false
+	AutoFarmFrame.Visible = false
+	HomeFrame.Visible = true
+	ExtraFrame.Visible = false
+	CreditsFrame.Visible = false
+end)
+
+MainFeatures.Name = "MainFeatures"
+MainFeatures.Parent = Tabs
+MainFeatures.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFeatures.BackgroundTransparency = 1.000
+MainFeatures.Position = UDim2.new(0.0595878363, 0, 0.169278994, 0)
+MainFeatures.Size = UDim2.new(0, 136, 0, 40)
+MainFeatures.Font = Enum.Font.SourceSansSemibold
+MainFeatures.Text = "Main Features"
+MainFeatures.TextColor3 = Color3.fromRGB(255, 255, 255)
+MainFeatures.TextSize = 25.000
+MainFeatures.MouseButton1Down:connect(function()
+	MainFeaturesFrame.Visible = true
+	AnimationsFrame.Visible = false
+	AutoFarmFrame.Visible = false
+	HomeFrame.Visible = false
+	ExtraFrame.Visible = false
+	CreditsFrame.Visible = false
+end)
+
+Animations.Name = "Animations"
+Animations.Parent = Tabs
+Animations.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Animations.BackgroundTransparency = 1.000
+Animations.Position = UDim2.new(0.0595878363, 0, 0.319749236, 0)
+Animations.Size = UDim2.new(0, 136, 0, 40)
+Animations.Font = Enum.Font.SourceSansSemibold
+Animations.Text = "Animations"
+Animations.TextColor3 = Color3.fromRGB(255, 255, 255)
+Animations.TextSize = 25.000
+Animations.MouseButton1Down:connect(function()
+	MainFeaturesFrame.Visible = false
+	AnimationsFrame.Visible = true
+	AutoFarmFrame.Visible = false
+	HomeFrame.Visible = false
+	ExtraFrame.Visible = false
+	CreditsFrame.Visible = false
+end)
+
+Credits.Name = "Credits"
+Credits.Parent = Tabs
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.0595878363, 0, 0.617554843, 0)
+Credits.Size = UDim2.new(0, 136, 0, 40)
+Credits.Font = Enum.Font.SourceSansSemibold
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 25.000
+Credits.MouseButton1Down:connect(function()
+	MainFeaturesFrame.Visible = false
+	AnimationsFrame.Visible = false
+	AutoFarmFrame.Visible = false
+	HomeFrame.Visible = false
+	ExtraFrame.Visible = false
+	CreditsFrame.Visible = true
+end)
+
+Extra.Name = "Extra"
+Extra.Parent = Tabs
+Extra.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Extra.BackgroundTransparency = 1.000
+Extra.Position = UDim2.new(0.0595878363, 0, 0.470219433, 0)
+Extra.Size = UDim2.new(0, 136, 0, 40)
+Extra.Font = Enum.Font.SourceSansSemibold
+Extra.Text = "Extra"
+Extra.TextColor3 = Color3.fromRGB(255, 255, 255)
+Extra.TextSize = 25.000
+Extra.MouseButton1Down:connect(function()
+	MainFeaturesFrame.Visible = false
+	AnimationsFrame.Visible = false
+	AutoFarmFrame.Visible = false
+	HomeFrame.Visible = true
+	ExtraFrame.Visible = true
+	CreditsFrame.Visible = false
+end)
+
+AutoFarm.Name = "AutoFarm"
+AutoFarm.Parent = Tabs
+AutoFarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AutoFarm.BackgroundTransparency = 1.000
+AutoFarm.Position = UDim2.new(0.0595878363, 0, 0.7680251, 0)
+AutoFarm.Size = UDim2.new(0, 136, 0, 40)
+AutoFarm.Font = Enum.Font.SourceSansSemibold
+AutoFarm.Text = "AutoFarm"
+AutoFarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoFarm.TextSize = 25.000
+AutoFarm.MouseButton1Down:connect(function()
+	MainFeaturesFrame.Visible = false
+	AnimationsFrame.Visible = false
+	AutoFarmFrame.Visible = true
+	HomeFrame.Visible = false
+	ExtraFrame.Visible = false
+	CreditsFrame.Visible = false
+end)
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.930555582, 0, 0, 0)
+Close.Size = UDim2.new(0, 40, 0, 34)
+Close.Font = Enum.Font.SourceSansSemibold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 25.000
+Close.MouseButton1Down:connect(function()
+	Main:TweenPosition(UDim2.new(0.0,-0,0,-500) , "Out", "Quad", 1, true)
+end)
+
+MainFeaturesFrame.Name = "MainFeaturesFrame"
+MainFeaturesFrame.Parent = Main
+MainFeaturesFrame.Active = true
+MainFeaturesFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+MainFeaturesFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+MainFeaturesFrame.BorderSizePixel = 0
+MainFeaturesFrame.Position = UDim2.new(0.279513896, 0, 0.17414248, 0)
+MainFeaturesFrame.Size = UDim2.new(0, 405, 0, 303)
+MainFeaturesFrame.Visible = false
+
+Fly.Name = "Fly"
+Fly.Parent = MainFeaturesFrame
+Fly.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Fly.BorderSizePixel = 0
+Fly.Position = UDim2.new(0.0148148155, 0, 0.0127425166, 0)
+Fly.Size = UDim2.new(0, 380, 0, 40)
+Fly.Font = Enum.Font.SourceSansSemibold
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fly.TextSize = 25.000
+Fly.MouseButton1Down:connect(function()
+	plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+
+	localplayer = plr
+
+	if workspace:FindFirstChild("Core") then
+		workspace.Core:Destroy()
+	end
+
+	local Core = Instance.new("Part")
+	Core.Name = "Core"
+	Core.Size = Vector3.new(0.05, 0.05, 0.05)
+
+	spawn(function()
+		Core.Parent = workspace
+		local Weld = Instance.new("Weld", Core)
+		Weld.Part0 = Core
+		Weld.Part1 = localplayer.Character.LowerTorso
+		Weld.C0 = CFrame.new(0, 0, 0)
+	end)
+
+	workspace:WaitForChild("Core")
+
+	local torso = workspace.Core
+	flying = true
+	local speed=10
+	local keys={a=false,d=false,w=false,s=false} 
+	local e1
+	local e2
+	local function start()
+		local pos = Instance.new("BodyPosition",torso)
+		local gyro = Instance.new("BodyGyro",torso)
+		pos.Name="EPIXPOS"
+		pos.maxForce = Vector3.new(math.huge, math.huge, math.huge)
+		pos.position = torso.Position
+		gyro.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+		gyro.cframe = torso.CFrame
+		repeat
+			wait()
+			localplayer.Character.Humanoid.PlatformStand=true
+			local new=gyro.cframe - gyro.cframe.p + pos.position
+			if not keys.w and not keys.s and not keys.a and not keys.d then
+				speed=5
+			end
+			if keys.w then 
+				new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+				speed=speed+0
+			end
+			if keys.s then 
+				new = new - workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+				speed=speed+0
+			end
+			if keys.d then 
+				new = new * CFrame.new(speed,0,0)
+				speed=speed+0
+			end
+			if keys.a then 
+				new = new * CFrame.new(-speed,0,0)
+				speed=speed+0
+			end
+			if speed>10 then
+				speed=5
+			end
+			pos.position=new.p
+			if keys.w then
+				gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(-math.rad(speed*0),0,0)
+			elseif keys.s then
+				gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(math.rad(speed*0),0,0)
+			else
+				gyro.cframe = workspace.CurrentCamera.CoordinateFrame
+			end
+		until flying == false
+		if gyro then gyro:Destroy() end
+		if pos then pos:Destroy() end
+		flying=false
+		localplayer.Character.Humanoid.PlatformStand=false
+		speed=10
+	end
+	e1=mouse.KeyDown:connect(function(key)
+		if not torso or not torso.Parent then flying=false e1:disconnect() e2:disconnect() return end
+		if key=="w" then
+			keys.w=true
+		elseif key=="s" then
+			keys.s=true
+		elseif key=="a" then
+			keys.a=true
+		elseif key=="d" then
+			keys.d=true
+		elseif key=="x" then
+			if flying==true then
+				flying=false
+			else
+				flying=true
+				start()
+			end
+		end
+	end)
+	e2=mouse.KeyUp:connect(function(key)
+		if key=="w" then
+			keys.w=false
+		elseif key=="s" then
+			keys.s=false
+		elseif key=="a" then
+			keys.a=false
+		elseif key=="d" then
+			keys.d=false
+		end
+	end)
+	start()
+end)
+
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = Fly
+
+GodMode.Name = "GodMode"
+GodMode.Parent = MainFeaturesFrame
+GodMode.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+GodMode.BorderSizePixel = 0
+GodMode.Position = UDim2.new(0.0148148155, 0, 0.0747478008, 0)
+GodMode.Size = UDim2.new(0, 380, 0, 40)
+GodMode.Font = Enum.Font.SourceSansSemibold
+GodMode.Text = "God Mode"
+GodMode.TextColor3 = Color3.fromRGB(255, 255, 255)
+GodMode.TextSize = 25.000
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = GodMode
+
+Walkspeed.Name = "Walkspeed"
+Walkspeed.Parent = MainFeaturesFrame
+Walkspeed.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Walkspeed.BorderSizePixel = 0
+Walkspeed.Position = UDim2.new(0.0148148155, 0, 0.200077623, 0)
+Walkspeed.Size = UDim2.new(0, 380, 0, 40)
+Walkspeed.Font = Enum.Font.SourceSansSemibold
+Walkspeed.Text = "Noclip"
+Walkspeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Walkspeed.TextSize = 25.000
+Walkspeed.MouseButton1Down:connect(function()
+	noclip = false
+	game:GetService('RunService').Stepped:connect(function()
+		if noclip then
+			game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+		end
+	end)
+	plr = game.Players.LocalPlayer
+	mouse = plr:GetMouse()
+	mouse.KeyDown:connect(function(key)
+
+		if key == "e" then
+			noclip = not noclip
+			game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+		end
+	end)
+end)
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = Walkspeed
+
+GodBullet.Name = "GodBullet"
+GodBullet.Parent = MainFeaturesFrame
+GodBullet.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+GodBullet.BorderSizePixel = 0
+GodBullet.Position = UDim2.new(0.0148148155, 0, 0.136753082, 0)
+GodBullet.Size = UDim2.new(0, 380, 0, 40)
+GodBullet.Font = Enum.Font.SourceSansSemibold
+GodBullet.Text = "GodBullet"
+GodBullet.TextColor3 = Color3.fromRGB(255, 255, 255)
+GodBullet.TextSize = 25.000
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = GodBullet
+
+SuperTaserlock.Name = "SuperTaserlock"
+SuperTaserlock.Parent = MainFeaturesFrame
+SuperTaserlock.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+SuperTaserlock.BorderSizePixel = 0
+SuperTaserlock.Position = UDim2.new(0.0148148155, 0, 0.262082905, 0)
+SuperTaserlock.Size = UDim2.new(0, 380, 0, 40)
+SuperTaserlock.Font = Enum.Font.SourceSansSemibold
+SuperTaserlock.Text = "Super Taser Lock"
+SuperTaserlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+SuperTaserlock.TextSize = 25.000
+
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = SuperTaserlock
+
+Unjail.Name = "Unjail"
+Unjail.Parent = MainFeaturesFrame
+Unjail.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Unjail.BorderSizePixel = 0
+Unjail.Position = UDim2.new(0.0148148155, 0, 0.321449667, 0)
+Unjail.Size = UDim2.new(0, 380, 0, 40)
+Unjail.Font = Enum.Font.SourceSansSemibold
+Unjail.Text = "Unjail"
+Unjail.TextColor3 = Color3.fromRGB(255, 255, 255)
+Unjail.TextSize = 25.000
+Unjail.MouseButton1Down:connect(function()
+	local status = script.Parent.Jail_Status
+	status.Visible = true
+	status.Text = 'Checking cash'
+	if plr.DataFolder.Currency.Value >= 125 then
+		status.Visible = true
+		status.Text = 'Teleporting'
+		wait(.5)
+		plr.Character.HumanoidRootPart.CFrame = CFrame.new(-270.94, 20.327, -242.38)--Key
+		wait()
+		plr.Character.HumanoidRootPart.CFrame = CFrame.new(-270.94, 20.327, -242.38)--Key(Backup)
+		status.Text = 'Click buy key'
+		repeat wait() until plr.Backpack:FindFirstChild('[Key]')
+		status.Text = 'Equip and click to unjail'
+		repeat wait() until not plr.Backpack:FindFirstChild('[Key]')
+		wait(1.5)
+		status.Text = 'Teleporting to bank'
+		plr.Character.HumanoidRootPart.CFrame = CFrame.new(-485.668, 23.631, -285.169)--Bank
+		status.Visible = false
+
+	elseif plr.DataFolder.Currency.Value < 125 then
+
+		status.Visible = true
+		wait(.2)
+		status.Text = 'You do not have enough cash to unjail'
+		wait(5)
+		status.Visible = false
+	end	
+end)
+
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = Unjail
+
+ToolsWhileCuffed.Name = "ToolsWhileCuffed"
+ToolsWhileCuffed.Parent = MainFeaturesFrame
+ToolsWhileCuffed.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+ToolsWhileCuffed.BorderSizePixel = 0
+ToolsWhileCuffed.Position = UDim2.new(0.0148148155, 0, 0.382135689, 0)
+ToolsWhileCuffed.Size = UDim2.new(0, 380, 0, 40)
+ToolsWhileCuffed.Font = Enum.Font.SourceSansSemibold
+ToolsWhileCuffed.Text = "Tools WhileCuffed"
+ToolsWhileCuffed.TextColor3 = Color3.fromRGB(255, 255, 255)
+ToolsWhileCuffed.TextSize = 25.000
+
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = ToolsWhileCuffed
+
+ServerSwap.Name = "ServerSwap"
+ServerSwap.Parent = MainFeaturesFrame
+ServerSwap.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+ServerSwap.BorderSizePixel = 0
+ServerSwap.Position = UDim2.new(0.0148148155, 0, 0.444140971, 0)
+ServerSwap.Size = UDim2.new(0, 380, 0, 40)
+ServerSwap.Font = Enum.Font.SourceSansSemibold
+ServerSwap.Text = "Server Swap"
+ServerSwap.TextColor3 = Color3.fromRGB(255, 255, 255)
+ServerSwap.TextSize = 25.000
+ServerSwap.MouseButton1Down:connect(function()
+	local TeleportService = game:GetService("TeleportService")
+	local placeID_1 = 2788229376
+	wait()
+	TeleportService:Teleport(placeID_1, plr)
+end)
+
+UICorner_10.CornerRadius = UDim.new(0, 5)
+UICorner_10.Parent = ServerSwap
+
+RemoveLeaderboard.Name = "RemoveLeaderboard"
+RemoveLeaderboard.Parent = MainFeaturesFrame
+RemoveLeaderboard.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+RemoveLeaderboard.BorderSizePixel = 0
+RemoveLeaderboard.Position = UDim2.new(0.0148148155, 0, 0.507465422, 0)
+RemoveLeaderboard.Size = UDim2.new(0, 380, 0, 40)
+RemoveLeaderboard.Font = Enum.Font.SourceSansSemibold
+RemoveLeaderboard.Text = "Remove Leaderboard"
+RemoveLeaderboard.TextColor3 = Color3.fromRGB(255, 255, 255)
+RemoveLeaderboard.TextSize = 25.000
+RemoveLeaderboard.MouseButton1Down:connect(function()
+	wait()
+	plr.leaderstats:Destroy()
+	plr.DataFolder.Officer:Destroy()
+end)
+
+UICorner_11.CornerRadius = UDim.new(0, 5)
+UICorner_11.Parent = RemoveLeaderboard
+
+AntiAfk.Name = "AntiAfk"
+AntiAfk.Parent = MainFeaturesFrame
+AntiAfk.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+AntiAfk.BorderSizePixel = 0
+AntiAfk.Position = UDim2.new(0.0148148155, 0, 0.572109222, 0)
+AntiAfk.Size = UDim2.new(0, 380, 0, 40)
+AntiAfk.Font = Enum.Font.SourceSansSemibold
+AntiAfk.Text = "Anti Afk"
+AntiAfk.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiAfk.TextSize = 25.000
+AntiAfk.MouseButton1Down:connect(function()
+	local vu = game:GetService("VirtualUser")
+	game:GetService("Players").LocalPlayer.Idled:connect(function()
+		vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		wait(1)
+		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+	end)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Anti - AFK";
+		Text = "Enabled (No timeout)";
+		Duration = 20;
+	})
+end)
+
+UICorner_12.CornerRadius = UDim.new(0, 5)
+UICorner_12.Parent = AntiAfk
+
+NoFog.Name = "NoFog"
+NoFog.Parent = MainFeaturesFrame
+NoFog.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+NoFog.BorderSizePixel = 0
+NoFog.Position = UDim2.new(0.0148148155, 0, 0.634114504, 0)
+NoFog.Size = UDim2.new(0, 380, 0, 40)
+NoFog.Font = Enum.Font.SourceSansSemibold
+NoFog.Text = "No Fog"
+NoFog.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoFog.TextSize = 25.000
+
+UICorner_13.CornerRadius = UDim.new(0, 5)
+UICorner_13.Parent = NoFog
+
+ChatLogs.Name = "ChatLogs"
+ChatLogs.Parent = MainFeaturesFrame
+ChatLogs.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+ChatLogs.BorderSizePixel = 0
+ChatLogs.Position = UDim2.new(0.0148148155, 0, 0.701396823, 0)
+ChatLogs.Size = UDim2.new(0, 380, 0, 40)
+ChatLogs.Font = Enum.Font.SourceSansSemibold
+ChatLogs.Text = "Chat Logs"
+ChatLogs.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChatLogs.TextSize = 25.000
+
+UICorner_14.CornerRadius = UDim.new(0, 5)
+UICorner_14.Parent = ChatLogs
+
+AntiPepperSpray.Name = "AntiPepperSpray"
+AntiPepperSpray.Parent = MainFeaturesFrame
+AntiPepperSpray.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+AntiPepperSpray.BorderSizePixel = 0
+AntiPepperSpray.Position = UDim2.new(0.0148148155, 0, 0.762082815, 0)
+AntiPepperSpray.Size = UDim2.new(0, 380, 0, 40)
+AntiPepperSpray.Font = Enum.Font.SourceSansSemibold
+AntiPepperSpray.Text = "Anti Pepper Spray/ Snowball Effect"
+AntiPepperSpray.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiPepperSpray.TextSize = 25.000
+AntiPepperSpray.MouseButton1Down:connect(function()
+	wait()
+	plr.PlayerGui.MainScreenGui.PepperSpray:Destroy()
+	plr.PlayerGui.MainScreenGui.SNOWBALLFRAME:Destroy()
+end)
+
+UICorner_15.CornerRadius = UDim.new(0, 5)
+UICorner_15.Parent = AntiPepperSpray
+
+KnifeLockpick.Name = "Knife/Lockpick"
+KnifeLockpick.Parent = MainFeaturesFrame
+KnifeLockpick.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+KnifeLockpick.BorderSizePixel = 0
+KnifeLockpick.Position = UDim2.new(0.0148148155, 0, 0.822768807, 0)
+KnifeLockpick.Size = UDim2.new(0, 380, 0, 40)
+KnifeLockpick.Font = Enum.Font.SourceSansSemibold
+KnifeLockpick.Text = "Knife/Lockpick"
+KnifeLockpick.TextColor3 = Color3.fromRGB(255, 255, 255)
+KnifeLockpick.TextSize = 25.000
+
+UICorner_16.CornerRadius = UDim.new(0, 5)
+UICorner_16.Parent = KnifeLockpick
+
+MeleeReach.Name = "MeleeReach"
+MeleeReach.Parent = MainFeaturesFrame
+MeleeReach.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+MeleeReach.BorderSizePixel = 0
+MeleeReach.Position = UDim2.new(0.0148148155, 0, 0.884774089, 0)
+MeleeReach.Size = UDim2.new(0, 380, 0, 40)
+MeleeReach.Font = Enum.Font.SourceSansSemibold
+MeleeReach.Text = "Melee Reach"
+MeleeReach.TextColor3 = Color3.fromRGB(255, 255, 255)
+MeleeReach.TextSize = 25.000
+UICorner_17.CornerRadius = UDim.new(0, 5)
+UICorner_17.Parent = MeleeReach
+
+AntiStomp.Name = "AntiStomp"
+AntiStomp.Parent = MainFeaturesFrame
+AntiStomp.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+AntiStomp.BorderSizePixel = 0
+AntiStomp.Position = UDim2.new(0.0148148155, 0, 0.94809866, 0)
+AntiStomp.Size = UDim2.new(0, 380, 0, 40)
+AntiStomp.Font = Enum.Font.SourceSansSemibold
+AntiStomp.Text = "Anti Stomp"
+AntiStomp.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiStomp.TextSize = 25.000
+
+UICorner_18.CornerRadius = UDim.new(0, 5)
+UICorner_18.Parent = AntiStomp
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = Main
+HomeFrame.BackgroundColor3 = Color3.fromRGB(9, 9, 9)
+HomeFrame.BorderSizePixel = 0
+HomeFrame.Position = UDim2.new(0.281736106, 0, 0.173999995, 0)
+HomeFrame.Size = UDim2.new(0, 405, 0, 303)
+
+Title_2.Name = "Title"
+Title_2.Parent = HomeFrame
+Title_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+Title_2.BorderSizePixel = 0
+Title_2.Size = UDim2.new(0, 405, 0, 50)
+Title_2.Font = Enum.Font.SourceSans
+Title_2.Text = "Welcome To Ultron!"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 30.000
+
+UICorner_19.CornerRadius = UDim.new(0, 5)
+UICorner_19.Parent = HomeFrame
+
+NoUP.Name = "NoUP"
+NoUP.Parent = HomeFrame
+NoUP.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+NoUP.BackgroundTransparency = 1.000
+NoUP.BorderSizePixel = 0
+NoUP.Position = UDim2.new(0.0197530873, 0, 0.415841579, 0)
+NoUP.Size = UDim2.new(0, 322, 0, 50)
+NoUP.Font = Enum.Font.SourceSans
+NoUP.Text = "---- No Updates At The Moment"
+NoUP.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoUP.TextSize = 30.000
+
+Updates.Name = "Updates"
+Updates.Parent = HomeFrame
+Updates.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+Updates.BackgroundTransparency = 1.000
+Updates.BorderSizePixel = 0
+Updates.Position = UDim2.new(0, 0, 0.20792079, 0)
+Updates.Size = UDim2.new(0, 146, 0, 50)
+Updates.Font = Enum.Font.SourceSans
+Updates.Text = "---- Updates"
+Updates.TextColor3 = Color3.fromRGB(255, 255, 255)
+Updates.TextSize = 30.000
+
+Glow.Name = "Glow"
+Glow.Parent = Main
+Glow.BackgroundTransparency = 1.000
+Glow.Position = UDim2.new(0, -15, 0, -15)
+Glow.Size = UDim2.new(1, 30, 1, 30)
+Glow.ZIndex = 0
+Glow.Image = "rbxassetid://5028857084"
+Glow.ScaleType = Enum.ScaleType.Slice
+Glow.SliceCenter = Rect.new(24, 24, 276, 276)
+
+AnimationsFrame.Name = "AnimationsFrame"
+AnimationsFrame.Parent = Main
+AnimationsFrame.Active = true
+AnimationsFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+AnimationsFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AnimationsFrame.BorderSizePixel = 0
+AnimationsFrame.Position = UDim2.new(0.279513896, 0, 0.17414248, 0)
+AnimationsFrame.Size = UDim2.new(0, 405, 0, 305)
+AnimationsFrame.Visible = false
+
+Ninja.Name = "Ninja"
+Ninja.Parent = AnimationsFrame
+Ninja.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Ninja.BorderSizePixel = 0
+Ninja.Position = UDim2.new(0.0148148155, 0, 0.0127425166, 0)
+Ninja.Size = UDim2.new(0, 380, 0, 40)
+Ninja.Font = Enum.Font.SourceSansSemibold
+Ninja.Text = "Ninja"
+Ninja.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ninja.TextSize = 25.000
+Ninja.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=656117400"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=656118341"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=656121766"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=656118852"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=656114359"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_20.CornerRadius = UDim.new(0, 5)
+UICorner_20.Parent = Ninja
+
+Toy.Name = "Toy"
+Toy.Parent = AnimationsFrame
+Toy.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Toy.BorderSizePixel = 0
+Toy.Position = UDim2.new(0.0148148155, 0, 0.0760670602, 0)
+Toy.Size = UDim2.new(0, 380, 0, 40)
+Toy.Font = Enum.Font.SourceSansSemibold
+Toy.Text = "Toy"
+Toy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Toy.TextSize = 25.000
+Toy.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782845736"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=782843345"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=782842708"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=782847020"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=782843869"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=782846423"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_21.CornerRadius = UDim.new(0, 5)
+UICorner_21.Parent = Toy
+
+Bubbly.Name = "Bubbly"
+Bubbly.Parent = AnimationsFrame
+Bubbly.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Bubbly.BorderSizePixel = 0
+Bubbly.Position = UDim2.new(0.0148148155, 0, 0.201396883, 0)
+Bubbly.Size = UDim2.new(0, 380, 0, 40)
+Bubbly.Font = Enum.Font.SourceSansSemibold
+Bubbly.Text = "Bubbly"
+Bubbly.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bubbly.TextSize = 25.000
+Bubbly.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=910004836"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=910009958"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=910034870"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=910025107"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=910016857"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=910001910"
+	Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=910030921"
+	Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=910028158"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_22.CornerRadius = UDim.new(0, 5)
+UICorner_22.Parent = Bubbly
+
+OldSchool.Name = "OldSchool"
+OldSchool.Parent = AnimationsFrame
+OldSchool.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+OldSchool.BorderSizePixel = 0
+OldSchool.Position = UDim2.new(0.0148148155, 0, 0.138072342, 0)
+OldSchool.Size = UDim2.new(0, 380, 0, 40)
+OldSchool.Font = Enum.Font.SourceSansSemibold
+OldSchool.Text = "Old School"
+OldSchool.TextColor3 = Color3.fromRGB(255, 255, 255)
+OldSchool.TextSize = 25.000
+OldSchool.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=5319831086"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319847204"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=5319844329"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=5319841935"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=5319839762"
+	Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=5319852613"
+	Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=5319850266"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_23.CornerRadius = UDim.new(0, 5)
+UICorner_23.Parent = OldSchool
+
+Zombie.Name = "Zombie"
+Zombie.Parent = AnimationsFrame
+Zombie.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Zombie.BorderSizePixel = 0
+Zombie.Position = UDim2.new(0.0148148155, 0, 0.263402164, 0)
+Zombie.Size = UDim2.new(0, 380, 0, 40)
+Zombie.Font = Enum.Font.SourceSansSemibold
+Zombie.Text = "Zombie"
+Zombie.TextColor3 = Color3.fromRGB(255, 255, 255)
+Zombie.TextSize = 25.000
+Zombie.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616158929"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616160636"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616161997"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616156119"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616157476"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_24.CornerRadius = UDim.new(0, 5)
+UICorner_24.Parent = Zombie
+
+Stylish.Name = "Stylish"
+Stylish.Parent = AnimationsFrame
+Stylish.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Stylish.BorderSizePixel = 0
+Stylish.Position = UDim2.new(0.0148148155, 0, 0.450737238, 0)
+Stylish.Size = UDim2.new(0, 380, 0, 40)
+Stylish.Font = Enum.Font.SourceSansSemibold
+Stylish.Text = "Stylish"
+Stylish.TextColor3 = Color3.fromRGB(255, 255, 255)
+Stylish.TextSize = 25.000
+Stylish.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616136790"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616138447"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616146177"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616140816"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616139451"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616133594"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616134815"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_25.CornerRadius = UDim.new(0, 5)
+UICorner_25.Parent = Stylish
+
+Cartoony.Name = "Cartoony"
+Cartoony.Parent = AnimationsFrame
+Cartoony.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Cartoony.BorderSizePixel = 0
+Cartoony.Position = UDim2.new(0.0148148155, 0, 0.388731956, 0)
+Cartoony.Size = UDim2.new(0, 380, 0, 40)
+Cartoony.Font = Enum.Font.SourceSansSemibold
+Cartoony.Text = "Cartoony"
+Cartoony.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cartoony.TextSize = 25.000
+Cartoony.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=742637544"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=742638445"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=742640026"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=742638842"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=742637942"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=742636889"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=742637151"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_26.CornerRadius = UDim.new(0, 5)
+UICorner_26.Parent = Cartoony
+
+Robot.Name = "Robot"
+Robot.Parent = AnimationsFrame
+Robot.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Robot.BorderSizePixel = 0
+Robot.Position = UDim2.new(0.0148148155, 0, 0.57606703, 0)
+Robot.Size = UDim2.new(0, 380, 0, 40)
+Robot.Font = Enum.Font.SourceSansSemibold
+Robot.Text = "Robot"
+Robot.TextColor3 = Color3.fromRGB(255, 255, 255)
+Robot.TextSize = 25.000
+Robot.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616088211"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616089559"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616095330"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616091570"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616090535"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616086039"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616087089"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_27.CornerRadius = UDim.new(0, 5)
+UICorner_27.Parent = Robot
+
+Astronaut.Name = "Astronaut"
+Astronaut.Parent = AnimationsFrame
+Astronaut.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Astronaut.BorderSizePixel = 0
+Astronaut.Position = UDim2.new(0.0148148155, 0, 0.514061749, 0)
+Astronaut.Size = UDim2.new(0, 380, 0, 40)
+Astronaut.Font = Enum.Font.SourceSansSemibold
+Astronaut.Text = "Astronaut"
+Astronaut.TextColor3 = Color3.fromRGB(255, 255, 255)
+Astronaut.TextSize = 25.000
+Astronaut.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=891621366"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=891633237"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=891667138"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=891636393"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=891627522"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=891609353"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=891617961"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_28.CornerRadius = UDim.new(0, 5)
+UICorner_28.Parent = Astronaut
+
+Mage.Name = "Mage"
+Mage.Parent = AnimationsFrame
+Mage.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Mage.BorderSizePixel = 0
+Mage.Position = UDim2.new(0.0148148155, 0, 0.325407416, 0)
+Mage.Size = UDim2.new(0, 380, 0, 40)
+Mage.Font = Enum.Font.SourceSansSemibold
+Mage.Text = "Mage"
+Mage.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mage.TextSize = 25.000
+Mage.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=707853694"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=707826056"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_29.CornerRadius = UDim.new(0, 5)
+UICorner_29.Parent = Mage
+
+Robot_2.Name = "Robot"
+Robot_2.Parent = AnimationsFrame
+Robot_2.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Robot_2.BorderSizePixel = 0
+Robot_2.Position = UDim2.new(0.0148148146, 0, 1.01538098, 0)
+Robot_2.Size = UDim2.new(0, 380, 0, 40)
+Robot_2.Font = Enum.Font.SourceSansSemibold
+Robot_2.Text = "Robot"
+Robot_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Robot_2.TextSize = 25.000
+
+UICorner_30.CornerRadius = UDim.new(0, 5)
+UICorner_30.Parent = Robot_2
+
+Knight.Name = "Knight"
+Knight.Parent = AnimationsFrame
+Knight.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Knight.BorderSizePixel = 0
+Knight.Position = UDim2.new(0.0148148146, 0, 0.953375757, 0)
+Knight.Size = UDim2.new(0, 380, 0, 40)
+Knight.Font = Enum.Font.SourceSansSemibold
+Knight.Text = "Knight"
+Knight.TextColor3 = Color3.fromRGB(255, 255, 255)
+Knight.TextSize = 25.000
+Knight.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=657595757"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=657568135"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=657552124"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=657564596"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=658409194"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=658360781"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=657600338"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_31.CornerRadius = UDim.new(0, 5)
+UICorner_31.Parent = Knight
+
+SuperHero.Name = "SuperHero"
+SuperHero.Parent = AnimationsFrame
+SuperHero.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+SuperHero.BorderSizePixel = 0
+SuperHero.Position = UDim2.new(0.0148148146, 0, 0.890051246, 0)
+SuperHero.Size = UDim2.new(0, 380, 0, 40)
+SuperHero.Font = Enum.Font.SourceSansSemibold
+SuperHero.Text = "SuperHero"
+SuperHero.TextColor3 = Color3.fromRGB(255, 255, 255)
+SuperHero.TextSize = 25.000
+SuperHero.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616111295"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616113536"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616122287"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616117076"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616115533"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616104706"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616108001"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_32.CornerRadius = UDim.new(0, 5)
+UICorner_32.Parent = SuperHero
+
+Werewolf.Name = "Werewolf"
+Werewolf.Parent = AnimationsFrame
+Werewolf.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Werewolf.BorderSizePixel = 0
+Werewolf.Position = UDim2.new(0.0148148146, 0, 0.828045964, 0)
+Werewolf.Size = UDim2.new(0, 380, 0, 40)
+Werewolf.Font = Enum.Font.SourceSansSemibold
+Werewolf.Text = "Werewolf"
+Werewolf.TextColor3 = Color3.fromRGB(255, 255, 255)
+Werewolf.TextSize = 25.000
+Werewolf.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083195517"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083214717"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083178339"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083216690"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083182000"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_33.CornerRadius = UDim.new(0, 5)
+UICorner_33.Parent = Werewolf
+
+Elder.Name = "Elder"
+Elder.Parent = AnimationsFrame
+Elder.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Elder.BorderSizePixel = 0
+Elder.Position = UDim2.new(0.0148148146, 0, 0.764721453, 0)
+Elder.Size = UDim2.new(0, 380, 0, 40)
+Elder.Font = Enum.Font.SourceSansSemibold
+Elder.Text = "Elder"
+Elder.TextColor3 = Color3.fromRGB(255, 255, 255)
+Elder.TextSize = 25.000
+Elder.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=845397899"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=845400520"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=845403856"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=845386501"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=845398858"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=845392038"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=845396048"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_34.CornerRadius = UDim.new(0, 5)
+UICorner_34.Parent = Elder
+
+Vampire.Name = "Vampire"
+Vampire.Parent = AnimationsFrame
+Vampire.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Vampire.BorderSizePixel = 0
+Vampire.Position = UDim2.new(0.0148148146, 0, 0.702716172, 0)
+Vampire.Size = UDim2.new(0, 380, 0, 40)
+Vampire.Font = Enum.Font.SourceSansSemibold
+Vampire.Text = "Vampire"
+Vampire.TextColor3 = Color3.fromRGB(255, 255, 255)
+Vampire.TextSize = 25.000
+Vampire.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083445855"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083450166"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083473930"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083462077"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083455352"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083443587"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_35.CornerRadius = UDim.new(0, 5)
+UICorner_35.Parent = Vampire
+
+Levitation.Name = "Levitation"
+Levitation.Parent = AnimationsFrame
+Levitation.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Levitation.BorderSizePixel = 0
+Levitation.Position = UDim2.new(0.0148148146, 0, 0.64071089, 0)
+Levitation.Size = UDim2.new(0, 380, 0, 40)
+Levitation.Font = Enum.Font.SourceSansSemibold
+Levitation.Text = "Levitation"
+Levitation.TextColor3 = Color3.fromRGB(255, 255, 255)
+Levitation.TextSize = 25.000
+Levitation.MouseButton1Click:Connect(function()
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616006778"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616008087"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616013216"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616010382"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616003713"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+	game.Players.LocalPlayer.Character.Humanoid.Jump = true
+end)
+
+UICorner_36.CornerRadius = UDim.new(0, 5)
+UICorner_36.Parent = Levitation
+
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = Main
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(9, 9, 9)
+CreditsFrame.BorderSizePixel = 0
+CreditsFrame.Position = UDim2.new(0.281736106, 0, 0.173999995, 0)
+CreditsFrame.Size = UDim2.new(0, 405, 0, 303)
+CreditsFrame.Visible = false
+
+UICorner_37.CornerRadius = UDim.new(0, 5)
+UICorner_37.Parent = CreditsFrame
+
+ScriptsMadeBydabsTruePro.Name = "Scripts Made By dabsTruePro"
+ScriptsMadeBydabsTruePro.Parent = CreditsFrame
+ScriptsMadeBydabsTruePro.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ScriptsMadeBydabsTruePro.BackgroundTransparency = 1.000
+ScriptsMadeBydabsTruePro.BorderSizePixel = 0
+ScriptsMadeBydabsTruePro.Position = UDim2.new(0.0197530873, 0, 0.204620466, 0)
+ScriptsMadeBydabsTruePro.Size = UDim2.new(0, 389, 0, 50)
+ScriptsMadeBydabsTruePro.Font = Enum.Font.SourceSans
+ScriptsMadeBydabsTruePro.Text = "Scripts Made By dabsTruePro"
+ScriptsMadeBydabsTruePro.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsMadeBydabsTruePro.TextSize = 30.000
+
+Updates_2.Name = "Updates"
+Updates_2.Parent = CreditsFrame
+Updates_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+Updates_2.BackgroundTransparency = 1.000
+Updates_2.BorderSizePixel = 0
+Updates_2.Position = UDim2.new(0.0197530873, 0, 0.0330033004, 0)
+Updates_2.Size = UDim2.new(0, 390, 0, 50)
+Updates_2.Font = Enum.Font.SourceSans
+Updates_2.Text = "Design UI Made By 1_SNIKCERS1"
+Updates_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Updates_2.TextSize = 30.000
+
+AutoFarmFrame.Name = "AutoFarmFrame"
+AutoFarmFrame.Parent = Main
+AutoFarmFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+AutoFarmFrame.BorderSizePixel = 0
+AutoFarmFrame.Position = UDim2.new(0.281736106, 0, 0.173999995, 0)
+AutoFarmFrame.Size = UDim2.new(0, 405, 0, 303)
+AutoFarmFrame.Visible = false
+
+UICorner_38.CornerRadius = UDim.new(0, 5)
+UICorner_38.Parent = AutoFarmFrame
+
+HospitalAutoFarm.Name = "HospitalAutoFarm"
+HospitalAutoFarm.Parent = AutoFarmFrame
+HospitalAutoFarm.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+HospitalAutoFarm.BorderSizePixel = 0
+HospitalAutoFarm.Position = UDim2.new(0.0296296291, 0, 0.0212328136, 0)
+HospitalAutoFarm.Size = UDim2.new(0, 380, 0, 40)
+HospitalAutoFarm.Font = Enum.Font.SourceSansSemibold
+HospitalAutoFarm.Text = "Hospital Autofarm"
+HospitalAutoFarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+HospitalAutoFarm.TextSize = 25.000
+HospitalAutoFarm.MouseButton1Down:connect(function()
+	_G.toggle = true -- if you want to turn it off change to false and re-execute
+	game:getService("RunService"):BindToRenderStep(
+	"",
+	0,
+	function()
+		if not game.Players.LocalPlayer.Character:findFirstChildOfClass("Humanoid") then
+			return
+		end
+		while wait() do
+			if _G.toggle == true then
+				game.Players.LocalPlayer.Character:findFirstChildOfClass("Humanoid"):ChangeState(11)
+			end
+		end
+	end
+	)
+	while wait(1) do
+		if _G.toggle == true then
+			pcall(
+				function()
+					for i, v in pairs(game:GetService("Workspace").Ignored.HospitalJob:GetChildren()) do
+						if v:IsA("Model") then
+							_G.patient = v.Name
+							game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame =
+								game.Workspace.Ignored.HospitalJob[v.Name].HumanoidRootPart.CFrame *
+								CFrame.new(Vector3.new(0, -6.5, 0), Vector3.new(0, 100, 0))
+						end
+					end
+					for i, v in pairs(game.Workspace.Ignored.HospitalJob:GetChildren()) do
+						if v.Name == "Can I get the Red bottle" then
+							local clickdetector = game.Workspace.Ignored.HospitalJob.Red.ClickDetector
+							fireclickdetector(clickdetector)
+						elseif v.Name == "Can I get the Blue bottle" then
+							local clickdetector = game.Workspace.Ignored.HospitalJob.Blue.ClickDetector
+							fireclickdetector(clickdetector)
+						elseif v.Name == "Can I get the Green bottle" then
+							local clickdetector = game.Workspace.Ignored.HospitalJob.Green.ClickDetector
+							fireclickdetector(clickdetector)
+						end
+					end
+					local clickdetector2 = game:GetService("Workspace").Ignored.HospitalJob[_G.patient].ClickDetector
+					fireclickdetector(clickdetector2)
+				end
+			)
+		elseif _G.toggle == false then
+			return
+		end
+	end
+end)
+
+UICorner_39.CornerRadius = UDim.new(0, 5)
+UICorner_39.Parent = HospitalAutoFarm
+
+P90Autofarm.Name = "P90Autofarm"
+P90Autofarm.Parent = AutoFarmFrame
+P90Autofarm.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+P90Autofarm.BorderSizePixel = 0
+P90Autofarm.Position = UDim2.new(0.0296296291, 0, 0.179648653, 0)
+P90Autofarm.Size = UDim2.new(0, 380, 0, 40)
+P90Autofarm.Font = Enum.Font.SourceSansSemibold
+P90Autofarm.Text = "P90 Autofarm"
+P90Autofarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+P90Autofarm.TextSize = 25.000
+P90Autofarm.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/E6LCcnrP'),true))()
+end)
+
+UICorner_40.CornerRadius = UDim.new(0, 5)
+UICorner_40.Parent = P90Autofarm
+
+ShotgunAutofarm.Name = "ShotgunAutofarm"
+ShotgunAutofarm.Parent = AutoFarmFrame
+ShotgunAutofarm.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+ShotgunAutofarm.BorderSizePixel = 0
+ShotgunAutofarm.Position = UDim2.new(0.0296296291, 0, 0.493180037, 0)
+ShotgunAutofarm.Size = UDim2.new(0, 380, 0, 40)
+ShotgunAutofarm.Font = Enum.Font.SourceSansSemibold
+ShotgunAutofarm.Text = "Shotgun Autofarm"
+ShotgunAutofarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShotgunAutofarm.TextSize = 25.000
+
+UICorner_41.CornerRadius = UDim.new(0, 5)
+UICorner_41.Parent = ShotgunAutofarm
+
+Fistautofarm.Name = "Fistautofarm"
+Fistautofarm.Parent = AutoFarmFrame
+Fistautofarm.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Fistautofarm.BorderSizePixel = 0
+Fistautofarm.Position = UDim2.new(0.0296296291, 0, 0.334764183, 0)
+Fistautofarm.Size = UDim2.new(0, 380, 0, 40)
+Fistautofarm.Font = Enum.Font.SourceSansSemibold
+Fistautofarm.Text = "Fist Autofarm"
+Fistautofarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fistautofarm.TextSize = 25.000
+Fistautofarm.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/rapnz/scripts/master/DaHoodFarm.lua"))()
+end)
+
+UICorner_42.CornerRadius = UDim.new(0, 5)
+UICorner_42.Parent = Fistautofarm
+
+ExtraFrame.Name = "ExtraFrame"
+ExtraFrame.Parent = Main
+ExtraFrame.Active = true
+ExtraFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+ExtraFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ExtraFrame.BorderSizePixel = 0
+ExtraFrame.Position = UDim2.new(0.279513896, 0, 0.17414248, 0)
+ExtraFrame.Size = UDim2.new(0, 405, 0, 303)
+ExtraFrame.Visible = false
+
+Antiban.Name = "Antiban"
+Antiban.Parent = ExtraFrame
+Antiban.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Antiban.BorderSizePixel = 0
+Antiban.Position = UDim2.new(0.0148148155, 0, 0.0127425166, 0)
+Antiban.Size = UDim2.new(0, 380, 0, 40)
+Antiban.Font = Enum.Font.SourceSansSemibold
+Antiban.Text = "Antiban"
+Antiban.TextColor3 = Color3.fromRGB(255, 255, 255)
+Antiban.TextSize = 25.000
+
+UICorner_43.CornerRadius = UDim.new(0, 5)
+UICorner_43.Parent = Antiban
+
+nilfeaturs.Name = "nilfeaturs"
+nilfeaturs.Parent = ExtraFrame
+nilfeaturs.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs.BorderSizePixel = 0
+nilfeaturs.Position = UDim2.new(0.0148148155, 0, 0.0747478008, 0)
+nilfeaturs.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs.Font = Enum.Font.SourceSansSemibold
+nilfeaturs.Text = "ComingSoon!"
+nilfeaturs.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs.TextSize = 25.000
+
+UICorner_44.CornerRadius = UDim.new(0, 5)
+UICorner_44.Parent = nilfeaturs
+
+nilfeaturs_2.Name = "nilfeaturs"
+nilfeaturs_2.Parent = ExtraFrame
+nilfeaturs_2.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_2.BorderSizePixel = 0
+nilfeaturs_2.Position = UDim2.new(0.0148148155, 0, 0.200077623, 0)
+nilfeaturs_2.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_2.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_2.Text = "ComingSoon!"
+nilfeaturs_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_2.TextSize = 25.000
+
+UICorner_45.CornerRadius = UDim.new(0, 5)
+UICorner_45.Parent = nilfeaturs_2
+
+nilfeaturs_3.Name = "nilfeaturs"
+nilfeaturs_3.Parent = ExtraFrame
+nilfeaturs_3.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_3.BorderSizePixel = 0
+nilfeaturs_3.Position = UDim2.new(0.0148148155, 0, 0.136753082, 0)
+nilfeaturs_3.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_3.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_3.Text = "ComingSoon!"
+nilfeaturs_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_3.TextSize = 25.000
+
+UICorner_46.CornerRadius = UDim.new(0, 5)
+UICorner_46.Parent = nilfeaturs_3
+
+nilfeaturs_4.Name = "nilfeaturs"
+nilfeaturs_4.Parent = ExtraFrame
+nilfeaturs_4.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_4.BorderSizePixel = 0
+nilfeaturs_4.Position = UDim2.new(0.0148148155, 0, 0.262082905, 0)
+nilfeaturs_4.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_4.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_4.Text = "ComingSoon!"
+nilfeaturs_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_4.TextSize = 25.000
+
+UICorner_47.CornerRadius = UDim.new(0, 5)
+UICorner_47.Parent = nilfeaturs_4
+
+nilfeaturs_5.Name = "nilfeaturs"
+nilfeaturs_5.Parent = ExtraFrame
+nilfeaturs_5.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_5.BorderSizePixel = 0
+nilfeaturs_5.Position = UDim2.new(0.0148148155, 0, 0.321449667, 0)
+nilfeaturs_5.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_5.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_5.Text = "ComingSoon!"
+nilfeaturs_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_5.TextSize = 25.000
+
+UICorner_48.CornerRadius = UDim.new(0, 5)
+UICorner_48.Parent = nilfeaturs_5
+
+nilfeaturs_6.Name = "nilfeaturs"
+nilfeaturs_6.Parent = ExtraFrame
+nilfeaturs_6.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_6.BorderSizePixel = 0
+nilfeaturs_6.Position = UDim2.new(0.0148148155, 0, 0.382135689, 0)
+nilfeaturs_6.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_6.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_6.Text = "ComingSoon!"
+nilfeaturs_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_6.TextSize = 25.000
+
+UICorner_49.CornerRadius = UDim.new(0, 5)
+UICorner_49.Parent = nilfeaturs_6
+
+nilfeaturs_7.Name = "nilfeaturs"
+nilfeaturs_7.Parent = ExtraFrame
+nilfeaturs_7.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_7.BorderSizePixel = 0
+nilfeaturs_7.Position = UDim2.new(0.0148148155, 0, 0.444140971, 0)
+nilfeaturs_7.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_7.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_7.Text = "ComingSoon!"
+nilfeaturs_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_7.TextSize = 25.000
+
+UICorner_50.CornerRadius = UDim.new(0, 5)
+UICorner_50.Parent = nilfeaturs_7
+
+nilfeaturs_8.Name = "nilfeaturs"
+nilfeaturs_8.Parent = ExtraFrame
+nilfeaturs_8.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_8.BorderSizePixel = 0
+nilfeaturs_8.Position = UDim2.new(0.0148148155, 0, 0.507465422, 0)
+nilfeaturs_8.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_8.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_8.Text = "ComingSoon!"
+nilfeaturs_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_8.TextSize = 25.000
+
+UICorner_51.CornerRadius = UDim.new(0, 5)
+UICorner_51.Parent = nilfeaturs_8
+
+nilfeaturs_9.Name = "nilfeaturs"
+nilfeaturs_9.Parent = ExtraFrame
+nilfeaturs_9.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_9.BorderSizePixel = 0
+nilfeaturs_9.Position = UDim2.new(0.0148148155, 0, 0.572109222, 0)
+nilfeaturs_9.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_9.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_9.Text = "ComingSoon!"
+nilfeaturs_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_9.TextSize = 25.000
+
+UICorner_52.CornerRadius = UDim.new(0, 5)
+UICorner_52.Parent = nilfeaturs_9
+
+nilfeaturs_10.Name = "nilfeaturs"
+nilfeaturs_10.Parent = ExtraFrame
+nilfeaturs_10.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_10.BorderSizePixel = 0
+nilfeaturs_10.Position = UDim2.new(0.0148148155, 0, 0.634114504, 0)
+nilfeaturs_10.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_10.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_10.Text = "ComingSoon!"
+nilfeaturs_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_10.TextSize = 25.000
+
+UICorner_53.CornerRadius = UDim.new(0, 5)
+UICorner_53.Parent = nilfeaturs_10
+
+nilfeaturs_11.Name = "nilfeaturs"
+nilfeaturs_11.Parent = ExtraFrame
+nilfeaturs_11.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_11.BorderSizePixel = 0
+nilfeaturs_11.Position = UDim2.new(0.0148148155, 0, 0.701396823, 0)
+nilfeaturs_11.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_11.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_11.Text = "ComingSoon!"
+nilfeaturs_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_11.TextSize = 25.000
+
+UICorner_54.CornerRadius = UDim.new(0, 5)
+UICorner_54.Parent = nilfeaturs_11
+
+nilfeaturs_12.Name = "nilfeaturs"
+nilfeaturs_12.Parent = ExtraFrame
+nilfeaturs_12.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_12.BorderSizePixel = 0
+nilfeaturs_12.Position = UDim2.new(0.0148148155, 0, 0.762082815, 0)
+nilfeaturs_12.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_12.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_12.Text = "ComingSoon!"
+nilfeaturs_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_12.TextSize = 25.000
+
+UICorner_55.CornerRadius = UDim.new(0, 5)
+UICorner_55.Parent = nilfeaturs_12
+
+nilfeaturs_13.Name = "nilfeaturs"
+nilfeaturs_13.Parent = ExtraFrame
+nilfeaturs_13.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_13.BorderSizePixel = 0
+nilfeaturs_13.Position = UDim2.new(0.0148148155, 0, 0.822768807, 0)
+nilfeaturs_13.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_13.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_13.Text = "ComingSoon!"
+nilfeaturs_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_13.TextSize = 25.000
+
+UICorner_56.CornerRadius = UDim.new(0, 5)
+UICorner_56.Parent = nilfeaturs_13
+
+nilfeaturs_14.Name = "nilfeaturs"
+nilfeaturs_14.Parent = ExtraFrame
+nilfeaturs_14.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_14.BorderSizePixel = 0
+nilfeaturs_14.Position = UDim2.new(0.0148148155, 0, 0.884774089, 0)
+nilfeaturs_14.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_14.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_14.Text = "ComingSoon!"
+nilfeaturs_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_14.TextSize = 25.000
+
+UICorner_57.CornerRadius = UDim.new(0, 5)
+UICorner_57.Parent = nilfeaturs_14
+
+nilfeaturs_15.Name = "nilfeaturs"
+nilfeaturs_15.Parent = ExtraFrame
+nilfeaturs_15.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+nilfeaturs_15.BorderSizePixel = 0
+nilfeaturs_15.Position = UDim2.new(0.0148148155, 0, 0.94809866, 0)
+nilfeaturs_15.Size = UDim2.new(0, 380, 0, 40)
+nilfeaturs_15.Font = Enum.Font.SourceSansSemibold
+nilfeaturs_15.Text = "ComingSoon!"
+nilfeaturs_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+nilfeaturs_15.TextSize = 25.000
+
+UICorner_58.CornerRadius = UDim.new(0, 5)
+UICorner_58.Parent = nilfeaturs_15
+
+KeySystem.Name = "KeySystem"
+KeySystem.Parent = Ultron
+KeySystem.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+KeySystem.BorderSizePixel = 0
+KeySystem.Position = UDim2.new(0.175906181, 0, 0.339066327, 0)
+KeySystem.Size = UDim2.new(0, 437, 0, 274)
+KeySystem.Active = true
+KeySystem.Draggable = true
+
+TitleKey.Name = "TitleKey"
+TitleKey.Parent = KeySystem
+TitleKey.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TitleKey.BorderSizePixel = 0
+TitleKey.Size = UDim2.new(0, 437, 0, 60)
+
+TitleKeyButer.Name = "TitleKeyButer"
+TitleKeyButer.Parent = TitleKey
+TitleKeyButer.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TitleKeyButer.BorderSizePixel = 0
+TitleKeyButer.Position = UDim2.new(0, 0, 0.791868091, 0)
+TitleKeyButer.Size = UDim2.new(0, 437, 0, 12)
+
+UICorner_59.CornerRadius = UDim.new(0, 5)
+UICorner_59.Parent = TitleKey
+
+KeyLSDGF.Name = "KeyLSDGF"
+KeyLSDGF.Parent = TitleKey
+KeyLSDGF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KeyLSDGF.BackgroundTransparency = 1.000
+KeyLSDGF.Position = UDim2.new(0.325187981, 0, 0.150182009, 0)
+KeyLSDGF.Size = UDim2.new(0, 164, 0, 41)
+KeyLSDGF.Font = Enum.Font.Highway
+KeyLSDGF.Text = "Ultron Key System"
+KeyLSDGF.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyLSDGF.TextSize = 30.000
+
+UICorner_60.CornerRadius = UDim.new(0, 5)
+UICorner_60.Parent = KeySystem
+
+Sumbit.Name = "Sumbit"
+Sumbit.Parent = KeySystem
+Sumbit.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Sumbit.BorderSizePixel = 0
+Sumbit.Position = UDim2.new(0.0856866539, 0, 0.737342775, 0)
+Sumbit.Size = UDim2.new(0, 364, 0, 59)
+Sumbit.Font = Enum.Font.SourceSansSemibold
+Sumbit.Text = "Enter Key"
+Sumbit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sumbit.TextSize = 25.000
+Sumbit.MouseButton1Down:connect(function()
+	if KeyFrame.Text == "R6H546H56JU67IO678O" then
+		game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "Ultron Loaded!",
+			Text = "Enjoy!",
+			Duration = 5,
+		})
+		Main.Visible = true
+		KeySystem.Visible = false
+	end
+end)
+
+UICorner_61.CornerRadius = UDim.new(0, 5)
+UICorner_61.Parent = Sumbit
+
+KeyFrame.Name = "KeyFrame"
+KeyFrame.Parent = KeySystem
+KeyFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+KeyFrame.BorderSizePixel = 0
+KeyFrame.Position = UDim2.new(0.0709382147, 0, 0.408759147, 0)
+KeyFrame.Size = UDim2.new(0, 386, 0, 75)
+KeyFrame.Font = Enum.Font.Highway
+KeyFrame.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+KeyFrame.Text = "Key Here!"
+KeyFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyFrame.TextSize = 25.000
+
+KeyLSDGF_2.Name = "KeyLSDGF"
+KeyLSDGF_2.Parent = KeySystem
+KeyLSDGF_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KeyLSDGF_2.BackgroundTransparency = 1.000
+KeyLSDGF_2.Position = UDim2.new(-0.00204314128, 0, 0.215875447, 0)
+KeyLSDGF_2.Size = UDim2.new(0, 437, 0, 52)
+KeyLSDGF_2.Font = Enum.Font.Highway
+KeyLSDGF_2.Text = "Get Key In discord.gg/A2DdVwGWhW"
+KeyLSDGF_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyLSDGF_2.TextSize = 30.000
+
+Close_2.Name = "Close"
+Close_2.Parent = KeySystem
+Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.BackgroundTransparency = 1.000
+Close_2.Position = UDim2.new(0.905383945, 0, 0, 0)
+Close_2.Size = UDim2.new(0, 40, 0, 34)
+Close_2.Font = Enum.Font.SourceSansSemibold
+Close_2.Text = "X"
+Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.TextSize = 25.000
+Close_2.MouseButton1Down:connect(function()
+	KeySystem:TweenPosition(UDim2.new(0.0,-0,0,-500) , "Out", "Quad", 1, true)
+end)
+
+Glow_2.Name = "Glow"
+Glow_2.Parent = KeySystem
+Glow_2.BackgroundTransparency = 1.000
+Glow_2.Position = UDim2.new(0, -15, 0, -15)
+Glow_2.Size = UDim2.new(1, 30, 1, 30)
+Glow_2.ZIndex = 0
+Glow_2.Image = "rbxassetid://5028857084"
+Glow_2.ScaleType = Enum.ScaleType.Slice
+Glow_2.SliceCenter = Rect.new(24, 24, 276, 276)
